@@ -6,6 +6,9 @@ import store from './app/store';
 import { Provider } from 'react-redux';
 import * as serviceWorker from './serviceWorker';
 
+// import '@ionic/react/css/core.css';
+// import '@ionic/react/css/ionic.bundle.css';
+
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>

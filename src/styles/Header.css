@@ -1,0 +1,41 @@
+.header{
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 0.1px solid lightgray;
+  padding: 10px 0;
+  width: 100%;
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.header__left{
+  display: flex;
+}
+
+.header__left > .header__search{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  height: 22px;
+  color: gray;
+  background: #eef3f8;
+}
+
+.header__left > img {
+  object-fit: contain;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.header__left > .header__search > input{
+  outline: none;
+  background: none;
+  border: none;
+}
+
+.header__right{
+  display: flex;
+}
